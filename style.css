@@ -1,0 +1,41 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.header {
+  padding: 5px;
+  background-color: black;
+}
+
+.game {
+  background-color: #b4da55;
+  min-height: 100%;
+}
+
+.button {
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:active {
+  background-color: #005e7c;
+}
