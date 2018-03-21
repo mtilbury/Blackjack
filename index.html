@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="game">
@@ -12,8 +13,12 @@
         <h1>Single-Player Blackjack</h1>
       </div>
       <div class="canvas">
-      </div>
         <input type="button" class="button" id="Play" value="Play" onclick="start_game()">
+        <input type="button" class="button" id="hit" value="Hit me" onclick="hit_me()">
+        <input type="button" class="button" id="stay" value="Stay" onclick="stay()">
+        <div id="hand">
+        </div>
+      </div>
     </div>
   </body>
 </html>
